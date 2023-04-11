@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Q4sw1</title>
+</head>
+<body class="bg-danger">
+	<br>
+	<br>
+	<div class="container bg-light text-center p-5">
+		<h1>Question 2</h1>
+
+		<p>The _______ property sets the HTML contents of an element on a web page</p>
+
+		<a href="Index.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="wrongAlert()">Window Alert</button>
+		</a>
+		<a href="Index.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="wrongAlert()">Console.log</button>
+		</a>
+		<a href="ZapantaQ3.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="correctAlert()">InnerHTML</button>
+		</a>
+		<a href="Index.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="wrongAlert()">Document.Write</button>
+		</a>
+	</div>
+	<script>
+		function wrongAlert() {
+			window.alert("WRONG :(")
+		}
+		function correctAlert() {
+			window.alert("CORRECT :D")
+		}
+	</script>
+</body>
+</html>

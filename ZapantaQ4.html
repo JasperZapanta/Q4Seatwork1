@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Question4</title>
+</head>
+<body class="bg-info">
+	<br>
+	<br>
+	<div class="container bg-light text-center p-5">
+		<h1>Question 4</h1>
+
+		<p>_______ method displays an alert box with a specified message and an OK button.</p>
+
+		<a href="ZapantaQ5.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="correctAlert()">Window Alert</button>
+		</a>
+		<a href="Index.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="wrongAlert()">Console.log</button>
+		</a>
+		<a href="Index.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="wrongAlert()">InnerHTML</button>
+		</a>
+		<a href="Index.html" class="btn btn-primary">
+			<button class="btn btn-primary" onclick="wrongAlert()">Document.Write</button>
+		</a>
+	</div>
+	<script>
+		function wrongAlert() {
+			window.alert("WRONG :(")
+		}
+		function correctAlert() {
+			window.alert("CORRECT :D")
+		}
+	</script>
+</body>
+</html>
